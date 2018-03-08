@@ -1,0 +1,17 @@
+Package: WangXiaoTools
+Title: Tools for HW3
+Version: 0.0.1
+Authors@R: person("Xiao", "Wang", email = "wang7922@umn.edu", role = c("aut", "cre"))
+Description: This is a set of functions for STAT 3701 HW3.
+Depends: R (>= 3.4.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+Imports: ggplot2,
+    magrittr,
+    dplyr
+VignetteBuilder: knitr
